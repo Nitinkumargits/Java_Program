@@ -7,16 +7,17 @@ public class variable{
        short s=140;
        int  i=99;
 
+    //    all are 10 
        byte b1=10;
        byte b2=0b1010;
        byte b3=012;
-       byte b4=0xA;
+       byte b4=0XA;
 
 
-       long l=9999999L;
+       long l=999999999999L;
        float f=12.43f;
        double d=12.43d;
-       
+
 
 
     }
