@@ -7,7 +7,11 @@ class MethPr {
         return x > y ? x : y;
     }
 
-    static String 
+    static String userName(String email) {
+        int a = email.indexOf('a');
+        String name = email.substring(0, a);
+        return name;
+    }
 
     public static void main(String[] args) {
 
