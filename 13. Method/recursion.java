@@ -11,6 +11,6 @@ public class recursion {
 
     public static void main(String[] args) {
 
-        fun(3);
+        fun(5);
     }
 }

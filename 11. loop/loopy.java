@@ -3,56 +3,51 @@ import java.util.Scanner;
 class loopy {
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int r;
+        String str = "";
 
-        // Example 1
+        while (n > 0) {
+            r = n % 10;
+            n /= 10;
+            str = str + r;
 
-        // Display multiplication table
-        // 5* i=5*i
-        // System.out.println("Enter the value of table: ");
+        }
+        System.out.println(str);
 
-        // int n = sc.nextInt();
-        // for (int i = 1; i <= 10; i++) {
-        // System.out.println(n + " * " + i + " = " + (n * i));
-        // }
+        char c;
 
-        // Example 2
+        for (int i = str.length() - 1; i >= 0; i--) {
+            c = str.charAt(i);
 
-        // Sum of n number
-        // System.out.printf("Enter the value : ");
+            switch (c) {
+                case '1':
+                    System.out.printf("One ");
 
-        // int n = c
-        // int sum = 0;
-        // for (int i = 1; i <= n; i++) {
-        // sum += i;
-        // }
-        // System.out.println(sum);
+                    break;
+                case '2':
+                    System.out.printf("Two ");
 
-        // // Example 3
+                    break;
+                case '3':
+                    System.out.printf("Three ");
 
-        // // Display the digit of number .
-        // System.out.printf("Enter the value : ");
-        // int n = sc.nextInt();
-        // int r;
-        // while (n > 0) {
+                    break;
+                case '4':
+                    System.out.printf("Four ");
 
-        // r = n % 10;
-        // n = n / 10;
-        // System.out.println(r);
-        // }
+                    break;
+                case '5':
+                    System.out.printf("Five ");
 
-        // Example 4
+                    break;
 
-        // Nested loop
+                default:
+                    System.out.printf("INVALID NUMBER");
+                    break;
+            }
 
-        // for (int row = 1; row <= 8; row++) {
+        }
 
-        // for (int col = 1; col <= 8; col++) {
-
-        // System.out.printf(" (" + row + "," + col + ")");
-        // }
-        // System.out.println();
-        // }
-
-        // Example 5
     }
 }
