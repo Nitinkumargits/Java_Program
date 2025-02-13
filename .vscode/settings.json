@@ -1,3 +1,24 @@
 {
-  "java.debug.settings.onBuildFailureProceed": true
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.project.sourcePaths": [
+    "18. IOStream",
+    "17.MultiThreading",
+    "16. Inheritance",
+    "15. Oops",
+    "14. Commadline",
+    "13. Method",
+    "12. Array",
+    "11. loop",
+    "10. Conditional-Statement",
+    "09. String",
+    "08. operator_and_Expression",
+    "07.Unicode",
+    "06. BinaryBits",
+    "05. literals",
+    "04. variable",
+    "03. DataType",
+    "02. Reading_from_keyboard",
+    "01. First java program",
+    "19.Genric"
+  ]
 }
