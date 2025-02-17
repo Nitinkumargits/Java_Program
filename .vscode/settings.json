@@ -1,6 +1,7 @@
 {
   "java.debug.settings.onBuildFailureProceed": true,
   "java.project.sourcePaths": [
+    "20. Collection FrameWork",
     "19.Genric",
     "18. IOStream",
     "17.MultiThreading",
@@ -20,6 +21,6 @@
     "03. DataType",
     "02. Reading_from_keyboard",
     "01. First java program",
-    "20. Collection FrameWork"
+    "22. DB"
   ]
 }
